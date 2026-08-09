@@ -349,7 +349,75 @@ function ChallengeDay() {
             </span>
           </div>
         </section>
+<section className="student-profile-card">
+  <div className="profile-top">
+    <div className="profile-avatar">AS</div>
 
+    <div>
+      <div className="section-label">STUDENT PROFILE</div>
+      <h2>Ayaan Siddiqui</h2>
+      <p>Frontend Developer • CSE Student</p>
+    </div>
+  </div>
+
+  <div className="profile-stats">
+    <div>
+      <span>TRACK</span>
+      <strong>Frontend</strong>
+    </div>
+
+    <div>
+      <span>CHALLENGE</span>
+      <strong>12 / 60 Days</strong>
+    </div>
+
+    <div>
+      <span>STREAK</span>
+      <strong>12 Days 🔥</strong>
+    </div>
+  </div>
+
+  <div className="profile-section">
+    <div className="section-label">SKILLS</div>
+
+    <div className="skill-list">
+      <span>React</span>
+      <span>JavaScript</span>
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>GitHub</span>
+    </div>
+  </div>
+
+  <div className="profile-section">
+    <div className="section-label">ACHIEVEMENTS</div>
+
+    <div className="achievement-list">
+      <div>
+        <strong>🔥 12 Day Streak</strong>
+        <p>Built consistently for 12 days.</p>
+      </div>
+
+      <div>
+        <strong>🚀 Frontend Track</strong>
+        <p>Currently learning and building frontend projects.</p>
+      </div>
+    </div>
+  </div>
+
+  <div className="progress-section">
+    <div className="progress-header">
+      <span>LEARNING PROGRESS</span>
+      <strong>20%</strong>
+    </div>
+
+    <div className="progress-bar">
+      <div className="progress-fill"></div>
+    </div>
+
+    <p>12 of 60 challenge days completed.</p>
+  </div>
+</section>
         <section className="proof-card">
           <div className="section-label">PROOF OF WORK</div>
 
